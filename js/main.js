@@ -1,6 +1,6 @@
 const con2Info = [
   {
-    img: "../img/con2Img1.png",
+    img: "./img/con2Img1.png",
     tag: "공예",
     title: "MMCA 이건희컬렉션 《피카소 도예》",
     date: "2026.03.18 ~ 2026.06.28",
