@@ -1,9 +1,6 @@
 @import url(../../../css/reset.css);
 @import url(../../../css/common.css);
 
-header .menu a {
-  font-size: 18px;
-}
 .section_title {
   background-image: url(../img/title_bg.png);
 }
