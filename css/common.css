@@ -1,0 +1,161 @@
+.wrap {
+  width: 100%;
+}
+section {
+  padding: 100px 150px;
+  width: 100%;
+  border-bottom: 1px solid red;
+}
+
+h1 {
+  font-family: "Poiret One";
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+h6 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+small {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* font end */
+
+.title_wrap {
+  margin-bottom: 80px;
+}
+
+.title_wrap h1 {
+  color: #7654da;
+}
+
+.title_wrap h6 {
+  color: #a7a7a7;
+}
+
+.con_wrap_2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.img_wrap_2 {
+  position: relative;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+.tag_1 small {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: white;
+  background-color: #1a1a1a;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.heart_icon_wrap {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.con_2 {
+  width: 24%;
+  display: flex;
+  flex-direction: column;
+  gap: 4%;
+}
+
+.tag_2 small {
+  color: #7654da;
+  background-color: #ebeaff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.con_title_wrap_2 h5 {
+  height: 20px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.date {
+  color: #a7a7a7;
+  margin-bottom: 8px;
+}
+
+.location {
+  display: flex;
+  gap: 15px;
+}
+
+.divider {
+  background-color: #ddd;
+  width: 1px;
+  height: 16px;
+}
+
+.more_btn_1 {
+  width: 140px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border-radius: 50px;
+  border: 1px solid #ddd;
+}
+
+.more_btn_2 {
+  border: none;
+}
+
+.con_wrap_6 {
+  width: 100%;
+}
+
+.con_6 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 32px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.con_left_wrap_6 {
+  display: flex;
+  gap: 30px;
+}
+
+.con_6 .date {
+  float: right;
+}
