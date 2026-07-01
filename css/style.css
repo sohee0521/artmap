@@ -65,10 +65,32 @@
 }
 
 .img_wrap_3 {
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
+}
+
+.hover_dark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  transition: 0.2s ease-in-out;
+  opacity: 0;
+}
+
+.hover_dark h4 {
+  display: inline;
+}
+
+.con_3:hover .hover_dark {
+  opacity: 100;
 }
 
 .img_wrap_right {
@@ -230,7 +252,7 @@
 .con_5_hover {
   width: 380px;
   height: 400px;
-  flex-shrink: 0; /* 중요: 카드가 찌그러지지 않도록 방지 */
+  flex-shrink: 0;
   position: relative;
   border-radius: 10px;
   overflow: hidden;
@@ -240,12 +262,9 @@
 .gradient_wrap,
 .con_title_5 {
   opacity: 0;
-  transition: opacity 0.3s ease; /* 나타날 때 부드럽게 연출 */
+  transition: opacity 0.3s ease;
 }
 
-/* [핵심 수정] 
-  호버(Hover) 상태: 마우스를 올렸을 때 투명도를 1로 만들어 나타나게 함
-*/
 .con_5_hover:hover .con_top_wrap_5,
 .con_5_hover:hover .gradient_wrap,
 .con_5_hover:hover .con_title_5 {
@@ -259,13 +278,12 @@
   border-radius: 0;
 }
 
-/* --- 무한 루프 애니메이션 --- */
 @keyframes rolling {
   0% {
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%); /* HTML 카드 10개(복사본 포함)일 때 딱 맞음 */
+    transform: translateX(-50%);
   }
 }
 
@@ -301,7 +319,7 @@
 }
 
 .con_wrap_6 {
-  width: 1200px;
+  width: 70%;
 }
 
 .con_6 {

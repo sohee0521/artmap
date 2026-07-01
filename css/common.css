@@ -4,7 +4,7 @@
 section {
   padding: 100px 150px;
   width: 100%;
-  border-bottom: 1px solid red;
+  /* border-bottom: 1px solid red; */
 }
 
 h1 {
@@ -24,12 +24,12 @@ h3 {
 
 h4 {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 h5 {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 h6 {
@@ -206,7 +206,6 @@ footer .img_container img {
 }
 
 .img_wrap_2 {
-  position: relative;
   width: 100%;
   background-color: aliceblue;
 }
@@ -225,7 +224,7 @@ footer .img_container img {
 .heart_icon_wrap {
   position: absolute;
   right: 10px;
-  bottom: 10px;
+  bottom: 160px;
   width: 40px;
   height: 40px;
 }
@@ -235,6 +234,7 @@ footer .img_container img {
 }
 
 .con_2 a {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 15px;
@@ -282,6 +282,13 @@ footer .img_container img {
   gap: 15px;
   border-radius: 50px;
   border: 1px solid #ddd;
+  transition: 0.2s ease-in-out;
+}
+
+.more_btn_1 a:hover {
+  background-color: #ebeaff;
+  color: #7654da;
+  border-color: white;
 }
 
 .more_btn_2 a {
