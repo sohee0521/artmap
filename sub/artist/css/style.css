@@ -1,20 +1,14 @@
 @import url(../../../css/reset.css);
 @import url(../../../css/common.css);
 
-
-header .menu a {
-  font-size: 18px;
-}
-
-.section_title{
+.section_title {
   background-image: url(../img/title_bg.png);
   margin-top: 30px;
 }
 
-.header .nav{
+.header .nav {
   margin-top: 3px;
 }
-
 
 /* section_title end */
 
@@ -25,7 +19,6 @@ header .menu a {
   margin: 0 auto;
 }
 
-
 .selection_wrap {
   width: 1430px;
   padding: 100px 0;
@@ -33,8 +26,6 @@ header .menu a {
   justify-content: space-between;
   align-items: center;
 }
-
-
 
 .select_search input {
   /* border-bottom: 1px solid #dddddd; */
@@ -84,13 +75,13 @@ header .menu a {
   overflow: hidden;
 }
 
-.artist_wrap .img_wrap>img{
+.artist_wrap .img_wrap > img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.hover_black{
+.hover_black {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,11 +95,11 @@ header .menu a {
   transition: 0.2s;
 }
 
-.hover_black:hover{
+.hover_black:hover {
   opacity: 1;
 }
 
-.hover_black h4{
+.hover_black h4 {
   color: white;
   gap: 5px;
 }
@@ -135,7 +126,7 @@ header .menu a {
   align-items: center;
 }
 
-.artist_con .like img{
+.artist_con .like img {
   width: 50%;
   margin-top: 2px;
   margin-left: 1px;
@@ -154,9 +145,8 @@ header .menu a {
   margin-bottom: 10px;
 }
 
-
-.pagination .num .active{
-  color:#7654da;
+.pagination .num .active {
+  color: #7654da;
   opacity: 1;
 }
 /* artist _ section end */
