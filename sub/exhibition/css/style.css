@@ -110,10 +110,6 @@
   cursor: pointer;
 }
 
-.con_2:hover {
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.05);
-}
-
 .tag_2 small {
   color: #7654da;
   background-color: #ebeaff;
