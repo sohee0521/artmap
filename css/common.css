@@ -225,12 +225,26 @@ footer .img_container img {
   position: absolute;
   right: 10px;
   bottom: 160px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
   width: 40px;
   height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heart_icon_wrap img {
+  width: 55%;
+  margin-top: 2px;
 }
 
 .con_2 {
   width: 24%;
+}
+
+.con_2:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
 }
 
 .con_2 a {

@@ -330,6 +330,10 @@
   border-bottom: 1px solid #ddd;
 }
 
+.con_6:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
 .con_left_wrap_6 {
   display: flex;
   gap: 30px;

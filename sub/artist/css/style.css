@@ -1,9 +1,20 @@
 @import url(../../../css/reset.css);
 @import url(../../../css/common.css);
 
-.section_title {
-  background-image: url(../img/title_bg.png);
+
+header .menu a {
+  font-size: 18px;
 }
+
+.section_title{
+  background-image: url(../img/title_bg.png);
+  margin-top: 30px;
+}
+
+.header .nav{
+  margin-top: 3px;
+}
+
 
 /* section_title end */
 
@@ -14,6 +25,7 @@
   margin: 0 auto;
 }
 
+
 .selection_wrap {
   width: 1430px;
   padding: 100px 0;
@@ -21,6 +33,8 @@
   justify-content: space-between;
   align-items: center;
 }
+
+
 
 .select_search input {
   /* border-bottom: 1px solid #dddddd; */
@@ -66,9 +80,38 @@
 .artist_wrap .img_wrap {
   width: 100%;
   height: 300px;
+  position: relative;
   overflow: hidden;
 }
 
+.artist_wrap .img_wrap>img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hover_black{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.hover_black:hover{
+  opacity: 1;
+}
+
+.hover_black h4{
+  color: white;
+  gap: 5px;
+}
 .artist_con {
   border: 1px #ddd solid;
   width: 450px;
@@ -92,7 +135,7 @@
   align-items: center;
 }
 
-.artist_con .like img {
+.artist_con .like img{
   width: 50%;
   margin-top: 2px;
   margin-left: 1px;
@@ -108,7 +151,12 @@
 
 .artist_con .text_wrap small {
   color: #7654da;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
+
+.pagination .num .active{
+  color:#7654da;
+  opacity: 1;
+}
 /* artist _ section end */

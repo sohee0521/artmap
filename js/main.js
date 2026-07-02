@@ -134,3 +134,21 @@ for (let i = 0; i < con5Info.length; i++) {
   con5ImgEl[i].innerHTML = `<img src="${con5Info[i].img}" alt="" />`;
   con5TitleEl[i].innerHTML = `<h5>${con5Info[i].title}</h5>`;
 }
+
+// section 5 end
+const heartEl = document.querySelectorAll(".heart_icon_wrap");
+
+for (let i = 0; i < con2Info.length; i++) {
+  heartEl[i].addEventListener("click", function (e) {
+    e.preventDefault();
+
+    const currentImg = heartEl[i].querySelector("img");
+
+    if (currentImg.src.includes("red")) {
+      currentImg.src = "./img/heart_icon.png";
+    } else {
+      currentImg.src = "./img/red_heart_icon.png";
+    }
+  });
+}
+// like end
