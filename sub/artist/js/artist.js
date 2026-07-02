@@ -1,9 +1,7 @@
-
 const tabItems = document.querySelectorAll(".select_1 h4");
 
 for (let i = 0; i < tabItems.length; i++) {
-  tabItems[i].addEventListener("click", function() {
-    
+  tabItems[i].addEventListener("click", function () {
     for (let j = 0; j < tabItems.length; j++) {
       tabItems[j].classList.remove("active");
     }
@@ -13,7 +11,7 @@ for (let i = 0; i < tabItems.length; i++) {
 }
 // select_1 end
 
- const artistInfo = [
+const artistInfo = [
   {
     img: "./img/1_1.jpg",
     major: "사진 한국",
@@ -73,7 +71,7 @@ for (let i = 0; i < tabItems.length; i++) {
     img: "./img/4_3.png",
     major: "회화 한국",
     name: "임현경",
-  }
+  },
 ];
 
 const artistWrapEl = document.querySelector(".artist_wrap");
@@ -106,14 +104,12 @@ for (let i = 0; i < artistInfo.length; i++) {
 
 artistWrapEl.innerHTML = artistHTML;
 
-
-
 const artistLikeEl = document.querySelectorAll(".artist_con .like_img");
 
 for (let i = 0; i < artistLikeEl.length; i++) {
   artistLikeEl[i].addEventListener("click", function (e) {
-    e.preventDefault(); 
-    e.stopPropagation(); 
+    e.preventDefault();
+    e.stopPropagation();
 
     if (this.src.includes("red")) {
       this.src = "./img/heart_icon.png";
@@ -123,4 +119,3 @@ for (let i = 0; i < artistLikeEl.length; i++) {
   });
 }
 // like end
-
