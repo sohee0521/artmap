@@ -58,7 +58,7 @@ const artistInfo = [
     name: "우한나",
   },
   {
-    img: "./img/4_1.jpg",
+    img: "./img/4_3.png",
     major: "미디어 한국",
     name: "오민",
   },
